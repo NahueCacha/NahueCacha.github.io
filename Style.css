@@ -1,0 +1,253 @@
+
+body{
+    background: #fff;
+    color: silver;
+    margin: 0;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    background: #1D3557;
+   min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.nav_link{
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+.nav_link:hover{
+    border-bottom: 1px  solid #047CBA;
+    font-size: 22px;
+}
+.links_nav{
+    color: silver;
+    text-decoration: none;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    height: 50px;
+    padding: 10px;
+}
+.nav_link{
+    color: silver;
+    text-decoration: none;
+    padding: 5px;
+    transition:  0.4s ease;
+}
+.nav_link:hover{
+    color: white;
+    font-size: 18px;
+}
+.Inicio{
+    background: #43A4B9;
+    color: #323232;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+    min-width: 60%;
+}
+.Icon_inicio{
+    color: #A8DADC;
+    font-size: 150px;
+    width: 30%;
+}
+.Quienes_Somos{
+    background: #D3DE5C;
+    color: #13233A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+    min-width: 60%;
+}
+.icon_quienes_somos{
+    color: #13233A;
+    font-size: 150px;
+    min-width: 30%;
+}
+.bt_contactanos{
+    background:  transparent;
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    color: #13233A  ;
+    border-color: #1D3557;
+    border-radius: 10px;
+    transition:  0.3s ease;
+    font-size: 16px;
+}
+.bt_contactanos:hover{
+    background:  #13233A;
+    color: silver;
+    width: 95%;
+    box-shadow:  0 0 8px 0 ;
+    font-size: 18px;
+}
+.Servicios{
+    background: #31587A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+}
+.contenedor_servicios{
+    display: flex;
+}
+.Line{
+    color: silver;
+    background: silver;
+}
+.Icon_service{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: auto;
+    font-size: 80px;
+    color: #A8DADC;
+}
+.text_service {
+    background: #31587A;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px 0 #1D3557;
+    text-align: center;
+    width: 50%;
+    transition: 0.3s ease-in;
+    font-size: 20px;
+}
+.text_service:hover {
+    background: #1D3557;
+}
+.More_Information_service{
+    background:  transparent;
+    width: 70%;
+    height: 50px;
+    color: silver;
+    border-color: #1D3557;
+    border-radius: 10px;
+    transition:  0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.More_Information_service:hover{
+    background:  #13233A;
+    width: 95%;
+    box-shadow:  0 0 8px 0 ;
+    font-size: 18px;
+}
+.Contactanos{
+    background: #F18887;
+    color: #13233A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 15px 0 #457B9D;
+}
+.contenedor_contact{
+    display: flex;
+}
+.contenedor_form{
+    box-shadow: 0 0 15px 0 #A05A5A;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+    min-width: 55%;
+}
+.form_contact{
+    text-align: center;
+    color: #13233A;
+}
+.text_box{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #13233A;
+    min-width: 80%;
+}
+.contenedor_information{
+    background: #323232;
+    color: silver;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 15px 0 #A05A5A;
+}
+.bt_send_form{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FF7214;
+    font-size: 18px;
+    min-width: 60%;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+.bt_send_form:hover{
+    border-radius: 10px;
+    color: #fff;
+    background: #FF7214;
+    font-size: 22px;
+    min-width: 80%
+}
+.icon_contact{
+    color: silver;
+    background: none;
+    border: none;
+    font-size: 30px;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+.icon_contact:hover{
+    color: #FF7214;
+    font-size: 40px;
+}
+.Encabezado{
+    background: #1D3557;
+    padding: 10px;
+}
+.Text_Encabezado{
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+
+        .nav{
+            flex-direction: column;
+        }
+        .Logo{
+            flex-direction: column;
+        }
+        .Inicio{
+            flex-direction: column;
+        }
+        .Quienes_Somos{
+            flex-direction: column;
+        }
+        .contenedor_servicios{
+           flex-direction: column;
+        }
+        .text_service{
+            width: 85%;
+            position: relative;
+            margin: 20px;
+        }
+        .Contactanos{
+            flex-direction: column;
+        }
+}
